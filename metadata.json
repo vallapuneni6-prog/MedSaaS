@@ -1,0 +1,8 @@
+{
+  "name": "MedSaaS - Multi-Tenant Healthcare Platform",
+  "description": "A robust multi-tenant SaaS platform for doctor consultations featuring patient intake chatbots, doctor consoles, and prescription management.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
