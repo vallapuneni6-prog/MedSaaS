@@ -1,6 +1,6 @@
 {
-  "name": "MedSaaS - Multi-Tenant Healthcare Platform",
-  "description": "A robust multi-tenant SaaS platform for doctor consultations featuring patient intake chatbots, doctor consoles, and prescription management.",
+  "name": "SureHealth24x7 - Healthcare Discovery Platform",
+  "description": "A robust multi-tenant SaaS platform for doctor discovery, featuring patient-to-doctor communication and practice management.",
   "requestFramePermissions": [
     "camera",
     "microphone"

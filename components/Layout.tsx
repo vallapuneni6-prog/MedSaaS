@@ -13,7 +13,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
             <div className="bg-blue-600 p-1.5 rounded-lg">
               <i className="fas fa-hand-holding-medical text-white text-xl"></i>
             </div>
-            <span className="text-xl font-bold tracking-tight text-slate-800">MedSaaS</span>
+            <span className="text-xl font-bold tracking-tight text-slate-800">SureHealth24x7</span>
           </div>
           
           <nav className="flex items-center gap-4">
@@ -30,7 +30,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                 </button>
               </>
             ) : (
-              <span className="text-sm text-slate-500">MVP Demo</span>
+              <span className="text-sm text-slate-500">Professional Healthcare Network</span>
             )}
           </nav>
         </div>
@@ -42,7 +42,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 
       <footer className="bg-white border-t border-slate-200 py-6 mt-12">
         <div className="max-w-7xl mx-auto px-4 text-center text-sm text-slate-500">
-          © 2025 MedSaaS Platform. Multi-tenant Medical SaaS Infrastructure.
+          © 2025 SureHealth24x7. All Rights Reserved. Not a Telemedicine Platform.
         </div>
       </footer>
     </div>

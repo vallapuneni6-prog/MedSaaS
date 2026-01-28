@@ -5,6 +5,8 @@ export enum PlanType {
   ENTERPRISE = 'Enterprise'
 }
 
+export type ConsultationType = 'OPD' | 'Clinic' | 'Hospital';
+
 export interface Tenant {
   id: string;
   companyName: string;
@@ -20,10 +22,23 @@ export interface Doctor {
   name: string;
   email: string;
   specialization: string;
-  licenseNumber: string;
+  licenseNumber: string; // Medical Council Registration Number
   isOnline: boolean;
   qualification: string;
   phone: string;
+  // New Mandatory Fields
+  profilePhotoUrl?: string;
+  gender: 'Male' | 'Female' | 'Other';
+  yob: number; // Year of Birth
+  experienceYears: number;
+  city: string;
+  locality: string;
+  clinicName: string;
+  consultationType: ConsultationType;
+  languages: string[];
+  govId: string; // Aadhaar / PAN
+  regProofUrl?: string;
+  acceptedTerms: boolean;
 }
 
 export interface Message {

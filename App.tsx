@@ -6,6 +6,7 @@ import HomeView from './views/HomeView';
 import PatientView from './views/PatientView';
 import DoctorConsole from './views/DoctorConsole';
 import SuperAdmin from './views/SuperAdmin';
+import DoctorOnboardingView from './views/DoctorOnboardingView';
 
 const App: React.FC = () => {
   const { currentUser } = useAppStore();
@@ -20,6 +21,8 @@ const App: React.FC = () => {
         return <DoctorConsole />;
       case 'patient':
         return <PatientView />;
+      case 'onboarding':
+        return <DoctorOnboardingView />;
       default:
         return <HomeView />;
     }
